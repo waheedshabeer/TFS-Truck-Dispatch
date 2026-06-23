@@ -1,0 +1,117 @@
+/* American Flag Colors */
+:root {
+  --american-red: #b22234;
+  --american-white: #ffffff;
+  --american-blue: #3c3b6e;
+  --american-green: #4caf50; 
+}
+
+/* Background Colors */
+.bg-american-red {
+  background-color: var(--american-red);
+}
+
+.bg-american-white {
+  background-color: var(--american-white);
+}
+
+.bg-american-blue {
+  background-color: var(--american-blue);
+}
+.bg-american-green {
+  background-color: var(--american-green);
+}
+/* Gradient Background */
+.bg-american-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--american-white),
+    var(--american-blue),
+    var(--american-red),
+    var(--american-white)
+  );
+}
+
+.bg-american-gradient-2 {
+  background: linear-gradient(
+    135deg,
+    var(--american-blue),
+    var(--american-red)
+  );
+}
+
+/* Text Colors */
+.text-american-red {
+  color: var(--american-red);
+}
+
+.text-american-white {
+  color: var(--american-white);
+}
+
+.text-american-blue {
+  color: var(--american-blue);
+}
+
+/* Border Colors */
+.border-american-red {
+  border-color: var(--american-red);
+}
+
+.border-american-white {
+  border-color: var(--american-white);
+}
+
+.border-american-blue {
+  border-color: var(--american-blue);
+}
+
+/* Utility: Hover Effects */
+.hover\:bg-american-red:hover {
+  background-color: var(--american-red);
+}
+
+.hover\:bg-american-blue:hover {
+  background-color: var(--american-blue);
+}
+
+.hover\:bg-american-white:hover {
+  background-color: var(--american-white);
+}
+
+.hover\:bg-american-gradient-2:hover {
+  background: linear-gradient(
+    135deg,
+    var(--american-blue),
+    var(--american-red)
+  );
+}
+
+/* Hover Effects for Text Colors */
+.hover\:text-american-red:hover {
+  color: var(--american-red);
+}
+
+.hover\:text-american-white:hover {
+  color: var(--american-white);
+}
+
+.hover\:text-american-blue:hover {
+  color: var(--american-blue);
+}
+
+/* Button Styling */
+.btn-american {
+  background-color: var(--american-red);
+  color: var(--american-white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+  border: 2px solid var(--american-blue);
+}
+
+.btn-american:hover {
+  background-color: var(--american-blue);
+  border-color: var(--american-red);
+}
